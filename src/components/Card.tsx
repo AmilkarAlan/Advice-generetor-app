@@ -1,7 +1,3 @@
-import React from 'react'
-
-
-
 const Card = ({getAdvice, advice}:{getAdvice:()=>void, advice:{id:number, advice:string}}) => {
   return (
     <div className='w-fit h-fit bg-(--dark-grayish-blue) flex flex-col justify-center items-center mx-4 p-8 rounded-lg relative lg:w-1/3 '>
